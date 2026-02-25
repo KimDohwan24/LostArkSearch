@@ -1,0 +1,26 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/archetype-resources/**
+!**/src/test/resources/archetype-resources/**
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.lp
+*.tmp
+*.bak
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

@@ -8,12 +8,12 @@ LostArk 캐릭터 검색 어플리케이션입니다. 게임 내 UI를 반영한
 - 인게임 화면과 유사한 고급스럽고 통일된 디자인 (다크 모드, 그라데이션, 애니메이션 적용)
 
 ## 🛠 기술 스택
-### Frontend (`/LostArkFront`)
+### Frontend (`/Front`)
 - React
 - Vite
 - Vanilla CSS
 
-### Backend (`/LostArkBack`)
+### Backend (`/Back`)
 - Java
 - Spring Boot
 - Maven
@@ -22,15 +22,15 @@ LostArk 캐릭터 검색 어플리케이션입니다. 게임 내 UI를 반영한
 
 ### 1. Frontend 구동
 ```bash
-cd LostArkFront/frontend
+cd Front/frontend
 npm install
 npm run dev
 ```
-> 또는 루트 디렉토리에 있는 `LostArkFront/start-frontend.bat` 더블 클릭하여 실행 가능
+> 또는 루트 디렉토리에 있는 `Front/start-frontend.bat` 더블 클릭하여 실행 가능
 
 ### 2. Backend 구동
 ```bash
-cd LostArkBack/backend
+cd Back/backend
 ./mvnw spring-boot:run
 ```
-> 또는 루트 디렉토리에 있는 `LostArkBack/start.bat` 더블 클릭하여 실행 가능
+> 또는 루트 디렉토리에 있는 `Back/start.bat` 더블 클릭하여 실행 가능

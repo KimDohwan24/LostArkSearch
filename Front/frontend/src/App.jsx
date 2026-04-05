@@ -1255,7 +1255,7 @@ function App() {
                                         </div>
 
                                         {currentDifficultyData && (
-                                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1.5rem' }}>
+                                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '1.5rem' }}>
                                                 {currentDifficultyData.steps.sort((a,b) => a.step - b.step).map((step, k) => (
                                                     <div key={k} className="stat-box-premium" style={{ padding: '1.5rem' }}>
                                                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.8rem' }}>

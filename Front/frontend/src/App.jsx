@@ -9,7 +9,6 @@ function App() {
     const [activeTab, setActiveTab] = useState('profile')
     const [arkSubTab, setArkSubTab] = useState('깨달음')
     const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 })
-    const [copiedSkillCode, setCopiedSkillCode] = useState(false)
     const [goldData, setGoldData] = useState([])
     const [calculatingGold, setCalculatingGold] = useState(false)
     const [raidInfoData, setRaidInfoData] = useState([])
@@ -318,28 +317,6 @@ function App() {
         if (text.includes('도약')) return '도약';
         return '기타';
     };
-
-    const generateSkillCode = () => {
-        if (!skills || skills.length === 0) return ''
-        return skills.map(skill => {
-            const tripods = skill.Tripods?.filter(t => t.IsSelected).map(t => `T${(t.Tier || 0) + 1}:${t.Name}`) || []
-            const rune = skill.Rune?.Name || ''
-            if (tripods.length === 0 && !rune) return null
-            return `${skill.Name}[${tripods.join(',')}]${rune ? `{${rune}}` : ''}`
-        }).filter(Boolean).join('|')
-    }
-
-    const copySkillCode = async () => {
-        const code = generateSkillCode()
-        if (!code) return
-        try {
-            await navigator.clipboard.writeText(code)
-            setCopiedSkillCode(true)
-            setTimeout(() => setCopiedSkillCode(false), 2000)
-        } catch (e) {
-            console.error('복사 실패:', e)
-        }
-    }
 
     // 무한 루프 방지를 위한 정적 Placeholder (Base64 투명 도트)
     const SAFE_FALLBACK_ICON = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
@@ -961,12 +938,6 @@ function App() {
                         <div className="skills-tab-container">
                             <div className="skills-header">
                                 <h2 style={{ color: 'var(--primary-gold)', fontWeight: 900, fontSize: '2rem' }}>스킬트리</h2>
-                                <button 
-                                    className={`skill-code-btn ${copiedSkillCode ? 'copied' : ''}`}
-                                    onClick={copySkillCode}
-                                >
-                                    {copiedSkillCode ? '복사 완료!' : '스킬 코드 복사'}
-                                </button>
                             </div>
                             
                             {(() => {
@@ -976,13 +947,26 @@ function App() {
                                 
                                 const renderSkillCard = (skill, i, isArk = false, isAwakening = false) => {
                                     const tierMap = { 0: 1, 1: 2, 2: 3 }
+                                    const skillGems = (Array.isArray(gems) ? gems : gems?.Gems || [])
+                                        .filter(gem => {
+                                            if (!gem.Tooltip) return false;
+                                            const rawTooltip = gem.Tooltip.replace(/<[^>]*>/g, "");
+                                            return rawTooltip.includes(skill.Name);
+                                        })
+                                        .sort((a, b) => {
+                                            const typeA = getGemType(a.Tooltip);
+                                            const typeB = getGemType(b.Tooltip);
+                                            if (typeA === 'damage' && typeB !== 'damage') return -1;
+                                            if (typeA !== 'damage' && typeB === 'damage') return 1;
+                                            return (b.Level || 0) - (a.Level || 0);
+                                        });
                                     
                                     return (
                                         <div key={i} className={`skill-card-full ${isArk ? 'ark' : ''} ${isAwakening ? 'awakening' : ''}`}>
                                             <div className="skill-card-header">
                                                 <img src={skill.Icon} alt="" className="skill-icon-large" />
                                                 <div className="skill-title-area">
-                                                    <div className="skill-name-row">
+                                                    <div className="skill-name-row" style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
                                                         <span className="skill-name-large">{skill.Name}</span>
                                                         {skill.Tripods && (() => {
                                                             const getSelectedIndex = (tier) => {
@@ -1040,6 +1024,24 @@ function App() {
                                                                 </div>
                                                             </div>
                                                         )
+                                                    })}
+                                                </div>
+                                            )}
+                                            {skillGems.length > 0 && (
+                                                <div className="skill-gems-bottom" style={{ padding: '0.6rem 0.8rem', background: 'rgba(0,0,0,0.15)', borderRadius: '6px', marginTop: '0.5rem', display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+                                                    <span style={{ fontSize: '0.8rem', color: '#888', fontWeight: 600, marginRight: '4px' }}>보석 효과</span>
+                                                    {skillGems.map((gem, gi) => {
+                                                        const isDamage = getGemType(gem.Tooltip) === 'damage';
+                                                        const isCooldown = getGemType(gem.Tooltip) === 'cooldown';
+                                                        const gemLabel = isDamage ? '피해' : (isCooldown ? '감소' : '');
+                                                        return (
+                                                            <div key={gi} style={{ display: 'flex', alignItems: 'center', gap: '4px', background: 'rgba(255,255,255,0.05)', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgba(255,255,255,0.05)' }}>
+                                                                <img src={gem.Icon} alt="" style={{ width: '18px', height: '18px' }} />
+                                                                <span style={{ fontSize: '0.8rem', fontWeight: 600, color: isDamage ? '#F99200' : (isCooldown ? '#49c2ff' : '#ccc') }}>
+                                                                    Lv.{gem.Level || 1} {gemLabel}
+                                                                </span>
+                                                            </div>
+                                                        );
                                                     })}
                                                 </div>
                                             )}

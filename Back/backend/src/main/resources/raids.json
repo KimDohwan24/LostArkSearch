@@ -1,0 +1,9078 @@
+[
+  {
+    "name": "발탄",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1415,
+    "gold": 500,
+    "boundGold": 500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 75,
+    "clearMedal": 50,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "발탄",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1415,
+    "gold": 700,
+    "boundGold": 700,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 70,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 900,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 720,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 900,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "마수의 뼈",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "발탄",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1445,
+    "gold": 700,
+    "boundGold": 700,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 175,
+    "clearMedal": 50,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 750,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 720,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "발탄",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1445,
+    "gold": 1100,
+    "boundGold": 1100,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 275,
+    "clearMedal": 70,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 290,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 580,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1100,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 960,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "마수의 뼈",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "발탄",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1415,
+    "gold": 500,
+    "boundGold": 500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 75,
+    "clearMedal": 50,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "발탄",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1415,
+    "gold": 700,
+    "boundGold": 700,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 70,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 900,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 720,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 900,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "마수의 뼈",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "비아키스",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1430,
+    "gold": 600,
+    "boundGold": 600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 700,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 340,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 680,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "비아키스",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1430,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 150,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1100,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 840,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1200,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "욕망의 날개",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "비아키스",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1460,
+    "gold": 900,
+    "boundGold": 900,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 225,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 850,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 450,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 900,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "비아키스",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1460,
+    "gold": 1500,
+    "boundGold": 1500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 375,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 340,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 680,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1150,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 1040,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2000,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "욕망의 날개",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "비아키스",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1430,
+    "gold": 600,
+    "boundGold": 600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 0,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 700,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 340,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 680,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "비아키스",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1430,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 150,
+    "clearMedal": 0,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1100,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 840,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1200,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "욕망의 날개",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "쿠크세이튼",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1475,
+    "gold": 600,
+    "boundGold": 600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 60,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 720,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2200,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "쿠크세이튼",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1475,
+    "gold": 900,
+    "boundGold": 900,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 150,
+    "clearMedal": 90,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 960,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2200,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "쿠크세이튼",
+    "difficulty": "노말",
+    "step": 3,
+    "level": 1475,
+    "gold": 1500,
+    "boundGold": 1500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 200,
+    "clearMedal": 150,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 1280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "광기의 나팔",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "쿠크세이튼",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1475,
+    "gold": 600,
+    "boundGold": 600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 60,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 720,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2200,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "쿠크세이튼",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1475,
+    "gold": 900,
+    "boundGold": 900,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 150,
+    "clearMedal": 90,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 960,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2200,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "쿠크세이튼",
+    "difficulty": "싱글",
+    "step": 3,
+    "level": 1475,
+    "gold": 1500,
+    "boundGold": 1500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 200,
+    "clearMedal": 150,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴석 결정",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "광기의 나팔",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴석 결정",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "수호석 결정",
+          "count": 1280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2600,
+          "em": true
+        },
+        {
+          "reward": "위대한 명예의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 융합 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "광기의 나팔",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1490,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 120,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1100,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 120,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1490,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 150,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 120,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1300,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "노말",
+    "step": 3,
+    "level": 1500,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 200,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1600,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 18,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "몽환의 사념",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "노말",
+    "step": 4,
+    "level": 1520,
+    "gold": 1600,
+    "boundGold": 1600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 375,
+    "clearMedal": 250,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 840,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 36,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 1200,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 7000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 28,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 20,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "몽환의 사념",
+          "count": 15,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1540,
+    "gold": 1200,
+    "boundGold": 1200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 300,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2500,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1540,
+    "gold": 1200,
+    "boundGold": 1200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 300,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2500,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 840,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "하드",
+    "step": 3,
+    "level": 1550,
+    "gold": 1200,
+    "boundGold": 1200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 300,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 23,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 1280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 5200,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "몽환의 사념",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "하드",
+    "step": 4,
+    "level": 1560,
+    "gold": 2000,
+    "boundGold": 2000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 500,
+    "clearMedal": 250,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 1600,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 6000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 46,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 2000,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 10000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 40,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 24,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "몽환의 사념",
+          "count": 30,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1490,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 100,
+    "clearMedal": 150,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 120,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1100,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 120,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1490,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 150,
+    "clearMedal": 150,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 120,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1300,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "싱글",
+    "step": 3,
+    "level": 1500,
+    "gold": 1000,
+    "boundGold": 1000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 200,
+    "clearMedal": 150,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1600,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 18,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "아브렐슈드",
+    "difficulty": "싱글",
+    "step": 4,
+    "level": 1520,
+    "gold": 1600,
+    "boundGold": 1600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 375,
+    "clearMedal": 250,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 840,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 36,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 1200,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 7000,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 28,
+          "em": true
+        },
+        {
+          "reward": "몽환의 사념",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 20,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1540,
+    "gold": 750,
+    "boundGold": 750,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 180,
+    "clearMedal": 100,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2100,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 210,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3290,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1540,
+    "gold": 1100,
+    "boundGold": 1100,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 200,
+    "clearMedal": 150,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2500,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3210,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 11,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "노말",
+    "step": 3,
+    "level": 1540,
+    "gold": 1450,
+    "boundGold": 1450,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 270,
+    "clearMedal": 200,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4100,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 17,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 15,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 310,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 620,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4990,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 17,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "관조의 빛무리",
+          "count": 3,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1580,
+    "gold": 900,
+    "boundGold": 900,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 225,
+    "clearMedal": 100,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 80,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2500,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 70,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 14,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1580,
+    "gold": 1400,
+    "boundGold": 1400,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 350,
+    "clearMedal": 150,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 120,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3500,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 80,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "하드",
+    "step": 3,
+    "level": 1580,
+    "gold": 2000,
+    "boundGold": 2000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 500,
+    "clearMedal": 200,
+    "playerCount": 4,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 150,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 5000,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 110,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 220,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 5100,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "관조의 빛무리",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1540,
+    "gold": 750,
+    "boundGold": 750,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 180,
+    "clearMedal": 100,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2100,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 210,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3290,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1540,
+    "gold": 1100,
+    "boundGold": 1100,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 200,
+    "clearMedal": 150,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2500,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3210,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 11,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카양겔",
+    "difficulty": "싱글",
+    "step": 3,
+    "level": 1540,
+    "gold": 1450,
+    "boundGold": 1450,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 270,
+    "clearMedal": 200,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "파괴강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4100,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 17,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 15,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "파괴강석",
+          "count": 310,
+          "em": true
+        },
+        {
+          "reward": "수호강석",
+          "count": 620,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4990,
+          "em": true
+        },
+        {
+          "reward": "경이로운 명예의 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "시련의 빛",
+          "count": 17,
+          "em": true
+        },
+        {
+          "reward": "관조의 빛무리",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 심화 돌파석",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1600,
+    "gold": 1200,
+    "boundGold": 1200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 180,
+    "clearMedal": 200,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 150,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3600,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1600,
+    "gold": 1600,
+    "boundGold": 1600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 220,
+    "clearMedal": 250,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3600,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "노말",
+    "step": 3,
+    "level": 1600,
+    "gold": 2400,
+    "boundGold": 2400,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 300,
+    "clearMedal": 450,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4500,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 230,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 460,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 6000,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 3,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1620,
+    "gold": 1400,
+    "boundGold": 1400,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 350,
+    "clearMedal": 200,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3400,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 170,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 340,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1620,
+    "gold": 2000,
+    "boundGold": 2000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 500,
+    "clearMedal": 250,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 240,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3400,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "하드",
+    "step": 3,
+    "level": 1620,
+    "gold": 3800,
+    "boundGold": 3800,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 950,
+    "clearMedal": 450,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 5100,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 9,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 7000,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1600,
+    "gold": 1200,
+    "boundGold": 1200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 180,
+    "clearMedal": 200,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 150,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3600,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1600,
+    "gold": 1600,
+    "boundGold": 1600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 220,
+    "clearMedal": 250,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3600,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "상아탑",
+    "difficulty": "싱글",
+    "step": 3,
+    "level": 1600,
+    "gold": 2400,
+    "boundGold": 2400,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 300,
+    "clearMedal": 450,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4500,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 230,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 460,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 6000,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 기운",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "빛나는 지혜의 엘릭서",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 3,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1580,
+    "gold": 850,
+    "boundGold": 850,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 190,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2700,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3830,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1580,
+    "gold": 1550,
+    "boundGold": 1550,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 230,
+    "clearMedal": 200,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2700,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3830,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "노말",
+    "step": 3,
+    "level": 1580,
+    "gold": 2300,
+    "boundGold": 2300,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 330,
+    "clearMedal": 400,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4200,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 230,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 460,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4430,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1600,
+    "gold": 1200,
+    "boundGold": 1200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 300,
+    "clearMedal": 150,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3100,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 14,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3200,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 14,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1600,
+    "gold": 2000,
+    "boundGold": 2000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 500,
+    "clearMedal": 200,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3100,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 14,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3200,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 14,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "하드",
+    "step": 3,
+    "level": 1600,
+    "gold": 2800,
+    "boundGold": 2800,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 700,
+    "clearMedal": 400,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4600,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 19,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 290,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 580,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4400,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 13,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1580,
+    "gold": 850,
+    "boundGold": 850,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 190,
+    "clearMedal": 150,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2700,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3830,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1580,
+    "gold": 1550,
+    "boundGold": 1550,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 230,
+    "clearMedal": 200,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2700,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 140,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3830,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "일리아칸",
+    "difficulty": "싱글",
+    "step": 3,
+    "level": 1580,
+    "gold": 2300,
+    "boundGold": 2300,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 330,
+    "clearMedal": 400,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4200,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 230,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 460,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4430,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "쇠락의 눈동자",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1610,
+    "gold": 1600,
+    "boundGold": 1600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 360,
+    "clearMedal": 250,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 150,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 250,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 500,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2220,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1610,
+    "gold": 2000,
+    "boundGold": 2000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 440,
+    "clearMedal": 300,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3750,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 290,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 580,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2880,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "노말",
+    "step": 3,
+    "level": 1610,
+    "gold": 2800,
+    "boundGold": 2800,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 640,
+    "clearMedal": 500,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 225,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 450,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4500,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 390,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 780,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3780,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 3,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "어둠의 불",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1630,
+    "gold": 2000,
+    "boundGold": 2000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 500,
+    "clearMedal": 250,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3600,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 24,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 280,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2760,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 24,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1630,
+    "gold": 2400,
+    "boundGold": 2400,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 600,
+    "clearMedal": 300,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4200,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 36,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3200,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 36,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "하드",
+    "step": 3,
+    "level": 1630,
+    "gold": 3600,
+    "boundGold": 3600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 900,
+    "clearMedal": 500,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 5000,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 48,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 9,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 410,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 820,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4080,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 48,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "어둠의 불",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "하드",
+    "step": 4,
+    "level": 1630,
+    "gold": 5000,
+    "boundGold": 5000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 1250,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 5500,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 48,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 560,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 1120,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 5730,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 22,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "어둠의 불",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1610,
+    "gold": 1600,
+    "boundGold": 1600,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 360,
+    "clearMedal": 250,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 150,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 250,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 500,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2220,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1610,
+    "gold": 2000,
+    "boundGold": 2000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 440,
+    "clearMedal": 300,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 360,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3750,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 290,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 580,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 2880,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "카멘",
+    "difficulty": "싱글",
+    "step": 3,
+    "level": 1610,
+    "gold": 2800,
+    "boundGold": 2800,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 640,
+    "clearMedal": 500,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 225,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 450,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 4500,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 390,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 780,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 3780,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "어둠의 불",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 3,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "베히모스",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1640,
+    "gold": 2200,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 920,
+    "clearMedal": 600,
+    "playerCount": 16,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 210,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "베히모스의 비늘",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 2050,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "베히모스의 비늘",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "베히모스",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1640,
+    "gold": 5000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 1960,
+    "clearMedal": 800,
+    "playerCount": 16,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 270,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 540,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4000,
+          "em": true
+        },
+        {
+          "reward": "베히모스의 비늘",
+          "count": 40,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 18,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 9,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 470,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 940,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3120,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 11,
+          "em": true
+        },
+        {
+          "reward": "베히모스의 비늘",
+          "count": 40,
+          "em": true
+        },
+        {
+          "reward": "마력의 샘물",
+          "count": 18,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "베히모스의 비늘",
+          "count": 20,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "서막 에키드나",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1620,
+    "gold": 1900,
+    "boundGold": 1900,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 310,
+    "clearMedal": 400,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 80,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1800,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 90,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1320,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "서막 에키드나",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1620,
+    "gold": 4200,
+    "boundGold": 4200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 700,
+    "clearMedal": 550,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 110,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 220,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 6300,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1900,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "아그리스의 비늘",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "서막 에키드나",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1640,
+    "gold": 2200,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 720,
+    "clearMedal": 400,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 200,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 2700,
+          "em": true
+        },
+        {
+          "reward": "담금질 : 알키오네의 눈",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 300,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 2050,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "담금질 : 알키오네의 눈",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "서막 에키드나",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1640,
+    "gold": 5000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 1630,
+    "clearMedal": 550,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 260,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3800,
+          "em": true
+        },
+        {
+          "reward": "담금질 : 알키오네의 눈",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 470,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 940,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3120,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 11,
+          "em": true
+        },
+        {
+          "reward": "담금질 : 알키오네의 눈",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "담금질 : 알키오네의 눈",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "서막 에키드나",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1620,
+    "gold": 1900,
+    "boundGold": 1900,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 310,
+    "clearMedal": 400,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 80,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1800,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 90,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 180,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1320,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "서막 에키드나",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1620,
+    "gold": 4200,
+    "boundGold": 4200,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 700,
+    "clearMedal": 550,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 110,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 220,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 1,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 6300,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "정제된 파괴강석",
+          "count": 160,
+          "em": true
+        },
+        {
+          "reward": "정제된 수호강석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "명예의 파편",
+          "count": 1900,
+          "em": true
+        },
+        {
+          "reward": "찬란한 명예의 돌파석",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "아그리스의 비늘",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 농축 돌파석",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "아그리스의 비늘",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "1막 에기르",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1660,
+    "gold": 3500,
+    "boundGold": 3500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 750,
+    "clearMedal": 800,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 960,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3600,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 840,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3790,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "1막 에기르",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1660,
+    "gold": 8000,
+    "boundGold": 8000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 1780,
+    "clearMedal": 1100,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 580,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1160,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4400,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 9,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 610,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1220,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6020,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 19,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "1막 에기르",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1680,
+    "gold": 5500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 1820,
+    "clearMedal": 800,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 580,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1160,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4200,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 610,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1220,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5280,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 18,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "1막 에기르",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1680,
+    "gold": 12500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 4150,
+    "clearMedal": 1100,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 660,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1320,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5400,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 940,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1880,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 8930,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 31,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 9,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "1막 에기르",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1660,
+    "gold": 3500,
+    "boundGold": 1750,
+    "boundGoldPercent": 50,
+    "rewardMoreGoldCost": 750,
+    "clearMedal": 800,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 480,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 960,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3600,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 420,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 840,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3790,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "1막 에기르",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1660,
+    "gold": 8000,
+    "boundGold": 4000,
+    "boundGoldPercent": 50,
+    "rewardMoreGoldCost": 1780,
+    "clearMedal": 1100,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 580,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1160,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4400,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 9,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 610,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1220,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6020,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 19,
+          "em": true
+        },
+        {
+          "reward": "업화의 쐐기돌",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "2막 아브렐슈드",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1670,
+    "gold": 5500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 1820,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 540,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1080,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4000,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 610,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1220,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5220,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "2막 아브렐슈드",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1670,
+    "gold": 11000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 3720,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1280,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4600,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 810,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1620,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 8060,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 21,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "카르마의 잔영",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "2막 아브렐슈드",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1690,
+    "gold": 7500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 2400,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1280,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4600,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 720,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1440,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6000,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 30,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 16,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "2막 아브렐슈드",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1690,
+    "gold": 15500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 5100,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 700,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1400,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6000,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 13,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1320,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2640,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5100,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 50,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 24,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 9,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "카르마의 잔영",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "2막 아브렐슈드",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1670,
+    "gold": 5500,
+    "boundGold": 2750,
+    "boundGoldPercent": 50,
+    "rewardMoreGoldCost": 1820,
+    "clearMedal": 0,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 540,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1080,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4000,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 610,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1220,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5220,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 8,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "2막 아브렐슈드",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1670,
+    "gold": 11000,
+    "boundGold": 5500,
+    "boundGoldPercent": 50,
+    "rewardMoreGoldCost": 3720,
+    "clearMedal": 0,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1280,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4600,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 810,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1620,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 8060,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 21,
+          "em": true
+        },
+        {
+          "reward": "카르마의 잔영",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "카르마의 잔영",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1680,
+    "gold": 4000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 1300,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 2600,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 390,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 780,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3680,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1680,
+    "gold": 7000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 2350,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 530,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1060,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4750,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "노말",
+    "step": 3,
+    "level": 1680,
+    "gold": 10000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 3360,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1040,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4200,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 780,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1560,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6810,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 21,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1700,
+    "gold": 5000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 1650,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 440,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 880,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3400,
+          "em": true
+        },
+        {
+          "reward": "담금질:우레의 뇌옥",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 600,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1200,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5000,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 23,
+          "em": true
+        },
+        {
+          "reward": "담금질:우레의 뇌옥",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1700,
+    "gold": 8000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 2640,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1040,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4000,
+          "em": true
+        },
+        {
+          "reward": "담금질:우레의 뇌옥",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 830,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1660,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 7200,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 27,
+          "em": true
+        },
+        {
+          "reward": "담금질:우레의 뇌옥",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "하드",
+    "step": 3,
+    "level": 1700,
+    "gold": 14000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 4060,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1280,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5600,
+          "em": true
+        },
+        {
+          "reward": "담금질:우레의 뇌옥",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 20,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1460,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2920,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 11760,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 45,
+          "em": true
+        },
+        {
+          "reward": "담금질:우레의 뇌옥",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "담금질:우레의 뇌옥",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "싱글",
+    "step": 1,
+    "level": 1680,
+    "gold": 4000,
+    "boundGold": 2000,
+    "boundGoldPercent": 50,
+    "rewardMoreGoldCost": 1300,
+    "clearMedal": 0,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 320,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 640,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 2600,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 390,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 780,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3680,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "싱글",
+    "step": 2,
+    "level": 1680,
+    "gold": 7000,
+    "boundGold": 3500,
+    "boundGoldPercent": 50,
+    "rewardMoreGoldCost": 2350,
+    "clearMedal": 0,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 400,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 800,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 4,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 3000,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 530,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1060,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4750,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "3막 칠흑, 폭풍의 밤",
+    "difficulty": "싱글",
+    "step": 3,
+    "level": 1680,
+    "gold": 10000,
+    "boundGold": 5000,
+    "boundGoldPercent": 50,
+    "rewardMoreGoldCost": 3360,
+    "clearMedal": 0,
+    "playerCount": 1,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 520,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1040,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 4200,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 11,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 780,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1560,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6810,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 21,
+          "em": true
+        },
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 20,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 7,
+          "em": true
+        }
+      ],
+      "auction": [
+        {
+          "reward": "담금질:낙뢰의 뿔",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "first": []
+    }
+  },
+  {
+    "name": "4막 파멸의 성채",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1700,
+    "gold": 12500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 4000,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 820,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1640,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5400,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1400,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2800,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 11880,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 44,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "4막 파멸의 성채",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1700,
+    "gold": 20500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 6500,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 960,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1920,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6800,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 2400,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 4800,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 20160,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 78,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "4막 파멸의 성채",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1720,
+    "gold": 15000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 4800,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 980,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1960,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6800,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 11,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1680,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 3360,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 14250,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 53,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "4막 파멸의 성채",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1720,
+    "gold": 27000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 8640,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1150,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2300,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 8600,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 19,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 2880,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 5760,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 24200,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 94,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 1,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "종막 최후의 날",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1710,
+    "gold": 14000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 4480,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 880,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1760,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6200,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1610,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 3220,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 13650,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 50,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "종막 최후의 날",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1710,
+    "gold": 26000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 8320,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1100,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2200,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 7900,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 17,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 2760,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 5520,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 23200,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 90,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "종막 최후의 날",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1730,
+    "gold": 17000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 5440,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 385,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 770,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 8300,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 750,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 1500,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 17500,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 30,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "종막 최후의 날",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1730,
+    "gold": 35000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 11200,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 475,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 950,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 10100,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 1320,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 2640,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 29800,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 50,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "고통의 마녀, 세르카",
+    "difficulty": "노말",
+    "step": 1,
+    "level": 1710,
+    "gold": 14000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 4480,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 880,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1760,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6200,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1610,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 3320,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 13650,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 50,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "고통의 마녀, 세르카",
+    "difficulty": "노말",
+    "step": 2,
+    "level": 1710,
+    "gold": 21000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 6720,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1100,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2200,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 7900,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 17,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 2480,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 4960,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 20880,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 82,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "고통의 마녀, 세르카",
+    "difficulty": "하드",
+    "step": 1,
+    "level": 1730,
+    "gold": 17500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 5600,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 385,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 770,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 8300,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 7,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 750,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 1500,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 17500,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 30,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "고통의 마녀, 세르카",
+    "difficulty": "하드",
+    "step": 2,
+    "level": 1730,
+    "gold": 26500,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 8480,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 475,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 950,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 10100,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 1130,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 2260,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 26820,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 45,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "고통의 마녀, 세르카",
+    "difficulty": "나이트메어",
+    "step": 1,
+    "level": 1740,
+    "gold": 21000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 6720,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 405,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 810,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 9100,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 860,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 1720,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 19000,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 36,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 10,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "고통의 마녀, 세르카",
+    "difficulty": "나이트메어",
+    "step": 2,
+    "level": 1740,
+    "gold": 33000,
+    "boundGold": 0,
+    "boundGoldPercent": 0,
+    "rewardMoreGoldCost": 10560,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 500,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 11000,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 1430,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 2860,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 32200,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 60,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "고통의 가시",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 5,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "지평의 성당",
+    "difficulty": "1단계",
+    "step": 1,
+    "level": 1700,
+    "gold": 13500,
+    "boundGold": 13500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 4320,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 820,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1640,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 5400,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 9,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1400,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2800,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 11880,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 44,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 4,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "지평의 성당",
+    "difficulty": "1단계",
+    "step": 2,
+    "level": 1700,
+    "gold": 16500,
+    "boundGold": 16500,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 5280,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 960,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1920,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6800,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 15,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 2400,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 4800,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 20160,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 78,
+          "em": true
+        },
+        {
+          "reward": "영웅~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 10,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 6,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "지평의 성당",
+    "difficulty": "2단계",
+    "step": 1,
+    "level": 1720,
+    "gold": 16000,
+    "boundGold": 16000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 5120,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 980,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 1960,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 6800,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 11,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1680,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 3360,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 14250,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 53,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 12,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "지평의 성당",
+    "difficulty": "2단계",
+    "step": 2,
+    "level": 1720,
+    "gold": 24000,
+    "boundGold": 24000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 7680,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 1150,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 2300,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 8600,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 16,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 17,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 18,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석",
+          "count": 2880,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석",
+          "count": 5760,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 24200,
+          "em": true
+        },
+        {
+          "reward": "운명의 돌파석",
+          "count": 94,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 2,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 순환 돌파석",
+          "count": 13,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 18,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "지평의 성당",
+    "difficulty": "3단계",
+    "step": 1,
+    "level": 1750,
+    "gold": 20000,
+    "boundGold": 20000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 6400,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 405,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 810,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 9100,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 8,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 24,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 860,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 1720,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 19000,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 36,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 24,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  },
+  {
+    "name": "지평의 성당",
+    "difficulty": "3단계",
+    "step": 2,
+    "level": 1750,
+    "gold": 30000,
+    "boundGold": 30000,
+    "boundGoldPercent": 100,
+    "rewardMoreGoldCost": 9600,
+    "clearMedal": 0,
+    "playerCount": 8,
+    "rewardItems": {
+      "default": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 500,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 1000,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 11000,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 12,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 6,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 36,
+          "em": true
+        }
+      ],
+      "more": [
+        {
+          "reward": "운명의 파괴석 결정",
+          "count": 1430,
+          "em": true
+        },
+        {
+          "reward": "운명의 수호석 결정",
+          "count": 2860,
+          "em": true
+        },
+        {
+          "reward": "운명의 파편",
+          "count": 32200,
+          "em": true
+        },
+        {
+          "reward": "위대한 운명의 돌파석",
+          "count": 60,
+          "em": true
+        },
+        {
+          "reward": "전설~고대 코어",
+          "count": 3,
+          "em": true
+        },
+        {
+          "reward": "특수 재련 : 전이 돌파석",
+          "count": 5,
+          "em": true
+        },
+        {
+          "reward": "은총의 파편",
+          "count": 36,
+          "em": true
+        }
+      ],
+      "auction": [],
+      "first": []
+    }
+  }
+]

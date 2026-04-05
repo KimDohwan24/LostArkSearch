@@ -448,6 +448,31 @@ body::after {
     border-radius: 0 0 20px 20px;
 }
 
+.home-btn {
+    position: absolute;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+    background: rgba(200, 161, 77, 0.15);
+    border-color: var(--primary-gold);
+    color: var(--primary-gold);
+    box-shadow: 0 0 15px rgba(200, 161, 77, 0.2);
+}
+
 .main-tab {
     padding: 0.8rem 2.5rem;
     border-radius: 12px;
@@ -468,6 +493,13 @@ body::after {
     color: var(--primary-gold);
     background: rgba(200, 161, 77, 0.1);
     border: 1px solid var(--primary-gold);
+}
+
+.history-pill:hover {
+    background: rgba(200, 161, 77, 0.2) !important;
+    border-color: rgba(200, 161, 77, 0.5) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(200, 161, 77, 0.15);
 }
 
 /* --- Re-Search Bar --- */
@@ -914,10 +946,28 @@ body::after {
     z-index: 10;
 }
 
-.gem-icon-item img {
-    width: 36px;
-    height: 36px;
-    border-radius: 4px;
+.gem-images-wrapper {
+    position: relative;
+    display: inline-flex;
+}
+
+.gem-icon-item img.main-gem-img {
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+}
+
+.gem-icon-item img.gem-skill-mini-icon {
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #000;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .gem-icon-wrapper {

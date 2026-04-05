@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './index.css'
 
 function App() {
@@ -10,6 +10,146 @@ function App() {
     const [arkSubTab, setArkSubTab] = useState('깨달음')
     const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 })
     const [copiedSkillCode, setCopiedSkillCode] = useState(false)
+    const [goldData, setGoldData] = useState([])
+    const [calculatingGold, setCalculatingGold] = useState(false)
+    const [raidInfoData, setRaidInfoData] = useState([])
+    const [loadingRaidInfo, setLoadingRaidInfo] = useState(false)
+    const [selectedRaidName, setSelectedRaidName] = useState('')
+    const [selectedDifficulty, setSelectedDifficulty] = useState('')
+    const [goldEarners, setGoldEarners] = useState([])
+    
+    // History & Favorites state
+    const [recentSearches, setRecentSearches] = useState(() => {
+        try { return JSON.parse(localStorage.getItem('recentSearches') || '[]'); } 
+        catch (e) { return []; }
+    });
+    const [favorites, setFavorites] = useState(() => {
+        try { return JSON.parse(localStorage.getItem('favorites') || '[]'); } 
+        catch (e) { return []; }
+    });
+
+    useEffect(() => {
+        localStorage.setItem('recentSearches', JSON.stringify(recentSearches));
+    }, [recentSearches]);
+
+    useEffect(() => {
+        localStorage.setItem('favorites', JSON.stringify(favorites));
+    }, [favorites]);
+
+    useEffect(() => {
+        const calculateGold = async () => {
+            if (!fullData?.siblings || fullData.siblings.length === 0) return;
+            setCalculatingGold(true);
+            try {
+                const res = await fetch('/api/raids');
+                const allRaids = await res.json();
+                
+                const getLevel = (char) => {
+                    const itemLv = char.ItemMaxLevel || char.itemMaxLevel || char.ItemAvgLevel || char.itemAvgLevel;
+                    return itemLv ? parseFloat(String(itemLv).replace(/,/g, '')) : 0;
+                };
+
+                const allChars = [...fullData.siblings]
+                    .sort((a, b) => getLevel(b) - getLevel(a));
+                
+                if (goldEarners.length === 0) {
+                    setGoldEarners(allChars.slice(0, 6).map(c => c.CharacterName));
+                }
+
+                const charGoldInfo = allChars.map((char) => {
+                    const charLevel = getLevel(char);
+                    const availableSteps = allRaids.filter(r => r.level <= charLevel && r.difficulty !== '싱글');
+                    
+                    const raidMap = {}; 
+                    availableSteps.forEach(r => {
+                        if (!raidMap[r.name]) raidMap[r.name] = {};
+                        if (!raidMap[r.name][r.difficulty]) raidMap[r.name][r.difficulty] = 0;
+                        raidMap[r.name][r.difficulty] += r.gold;
+                    });
+                    
+                    const bestRaids = [];
+                    for (const name in raidMap) {
+                        let bestDiff = '';
+                        let maxGold = 0;
+                        for (const diff in raidMap[name]) {
+                            if (raidMap[name][diff] > maxGold) {
+                                maxGold = raidMap[name][diff];
+                                bestDiff = diff;
+                            }
+                        }
+                        bestRaids.push({ name, difficulty: bestDiff, gold: maxGold });
+                    }
+                    
+                    bestRaids.sort((a, b) => b.gold - a.gold);
+                    const top3 = bestRaids.slice(0, 3);
+                    const totalGold = top3.reduce((sum, r) => sum + r.gold, 0);
+                    
+                    return {
+                        characterName: char.CharacterName,
+                        className: char.CharacterClassName,
+                        level: charLevel,
+                        top3Raids: top3,
+                        totalGold
+                    };
+                });
+                
+                setGoldData(charGoldInfo);
+            } catch (err) {
+                console.error("Gold calculate error:", err);
+            } finally {
+                setCalculatingGold(false);
+            }
+        };
+        
+        if (activeTab === 'gold' && fullData?.siblings?.length > 0 && goldData.length === 0) {
+            calculateGold();
+        }
+    }, [activeTab, fullData?.siblings, goldData.length]);
+
+    useEffect(() => {
+        const fetchRaidInfo = async () => {
+            setLoadingRaidInfo(true);
+            try {
+                const res = await fetch('/api/raids');
+                const allRaids = await res.json();
+                
+                const raidMap = {};
+                allRaids.forEach(r => {
+                    if (!raidMap[r.name]) {
+                        raidMap[r.name] = { name: r.name, minLevel: 9999, difficulties: {} };
+                    }
+                    if (r.level < raidMap[r.name].minLevel && r.difficulty !== '싱글') {
+                        raidMap[r.name].minLevel = r.level;
+                    }
+                    
+                    if (!raidMap[r.name].difficulties[r.difficulty]) {
+                        raidMap[r.name].difficulties[r.difficulty] = {
+                            difficulty: r.difficulty,
+                            level: r.level,
+                            steps: []
+                        };
+                    }
+                    raidMap[r.name].difficulties[r.difficulty].steps.push(r);
+                });
+                
+                const raidArray = Object.values(raidMap).sort((a, b) => a.minLevel - b.minLevel);
+                setRaidInfoData(raidArray);
+                if (raidArray.length > 0) {
+                    setSelectedRaidName(raidArray[0].name);
+                    const diffs = Object.keys(raidArray[0].difficulties);
+                    if (diffs.length > 0) setSelectedDifficulty(diffs[0]);
+                }
+            } catch(e) {
+                console.error("Raid fetch info error:", e);
+            } finally {
+                setLoadingRaidInfo(false);
+            }
+        };
+
+        if (activeTab === 'raidInfo' && raidInfoData.length === 0) {
+            fetchRaidInfo();
+        }
+    }, [activeTab, raidInfoData.length]);
 
     const handleMouseMove = (e) => {
         setTooltipPos({ x: e.clientX + 15, y: e.clientY + 15 })
@@ -30,12 +170,56 @@ function App() {
                     .split('<BR><BR>')[0]
                     .replace(/<FONT[^>]*>/gi, '')
                     .replace(/<\/FONT>/gi, '')
-                    .replace(/\[블레이드\]\s*/gi, '')
+                    // 블레이드, 데모닉 등 알려진 직업명만 괄호 안에서 제거하여, '버스트' 등 이름이 훼손되지 않게 함.
+                    .replace(/\[(워로드|버서커|디스트로이어|홀리나이트|슬레이어|스트라이커|배틀마스터|인파이터|기공사|창술사|브레이커|데빌헌터|블래스터|호크아이|스카우터|건슬링어|바드|서머너|아르카나|소서리스|블레이드|데모닉|리퍼|소울이터|도화가|기상술사|암살자|전사|무도가|마법사|헌터|스페셜리스트)\]\s*/gi, '')
+                    .replace(/\[.*?\]\s*/gi, '') // 그래도 남는 태그 대비용이긴 하나, 위에서 주요 직업이 제거됨
                     .trim()
                 return cleanEffect
             }
         } catch (e) {}
         return ''
+    }
+
+    const getGemSkillIcon = (gem, skillList) => {
+        if (!gem?.Tooltip) return null;
+        
+        // 1. Tooltip URL 정규식 (따옴표 종류 무관하게 URL 파싱)
+        try {
+            const urlMatches = gem.Tooltip.matchAll(/(https:\/\/cdn-lostark\.game\.onstove\.com\/[^'"\\]+\.png)/gi);
+            for (const match of urlMatches) {
+                const src = match[1];
+                if (src && !src.includes('emoticon') && !src.includes('grade') && !src.includes('tier') && src.includes('skill')) {
+                    return src;
+                }
+            }
+        } catch(e) {}
+
+        // 2. 텍스트 매칭
+        if (skillList) {
+            // 원본 툴팁에서 직접 스킬명 매칭 (직업명 제거 등으로 훼손되기 전 상태 우선 검사)
+            const rawTooltip = gem.Tooltip.replace(/<[^>]*>/g, '');
+            for (const s of skillList) {
+                if (rawTooltip.includes(s.Name)) {
+                    return s.Icon;
+                }
+            }
+        }
+
+        // 3. 특별 아이덴티티 스킬 고정 이미지 (텍스트에 특정 문자열 포함 시)
+        // 공식 CDN 주소 난독화로 실시간 파싱이 어려운 직업 전용 스킬들은 아래에 이미지 주소를 등록합니다.
+        const IDENTITY_ICONS = {
+            '버스트': 'https://cdn-lostark.game.onstove.com/efui_iconatlas/bl_skill/bl_skill_01_21.png', // 실제 버스트 스킬 인게임 아이콘
+            '악마화': 'https://cdn-lostark.game.onstove.com/2018/obt/assets/images/pc/profile/demonic.png',
+            '싱크': 'https://cdn-lostark.game.onstove.com/2018/obt/assets/images/pc/profile/scouter.png',
+            '포격': 'https://cdn-lostark.game.onstove.com/2018/obt/assets/images/pc/profile/blaster.png'
+        };
+
+        const rawTooltipStr = gem.Tooltip.replace(/<[^>]*>/g, '');
+        for (const [key, iconUrl] of Object.entries(IDENTITY_ICONS)) {
+            if (rawTooltipStr.includes(key)) return iconUrl;
+        }
+
+        return null;
     }
 
     const getGemType = (tooltip) => {
@@ -44,6 +228,15 @@ function App() {
         if (effect.includes('쿨타임') || effect.includes('재사용')) return 'cooldown'
         return 'unknown'
     }
+
+    const handleGoHome = () => {
+        setFullData(null);
+        setCharacterName('');
+        setGoldData([]);
+        setGoldEarners([]);
+        setRaidInfoData([]);
+        setError(null);
+    };
 
     const handleSearch = async (e, nameToSearch = null) => {
         if (e) e.preventDefault()
@@ -55,6 +248,8 @@ function App() {
         setLoading(true)
         setError(null)
         setFullData(null)
+        setGoldData([])
+        setGoldEarners([])
 
         try {
             const response = await fetch(`/api/characters/${encodeURIComponent(targetName)}/full`)
@@ -66,6 +261,12 @@ function App() {
             console.log("[DEBUG] API Payload:", data);
             setFullData(data)
             setActiveTab('profile')
+            
+            // Save to recent searches
+            setRecentSearches(prev => {
+                const newSearches = [targetName, ...prev.filter(name => name !== targetName)].slice(0, 10);
+                return newSearches;
+            });
         } catch (err) {
             console.error("[DEBUG] Search Error:", err);
             setError(err.message)
@@ -73,6 +274,31 @@ function App() {
             setLoading(false)
         }
     }
+
+    const toggleGoldEarner = (charName) => {
+        setGoldEarners(prev => {
+            if (prev.includes(charName)) {
+                return prev.filter(name => name !== charName);
+            } else {
+                if (prev.length >= 6) {
+                    alert('골드 획득 지정은 최대 6캐릭터까지만 가능합니다.');
+                    return prev;
+                }
+                return [...prev, charName];
+            }
+        });
+    };
+
+    const toggleFavorite = (name, e) => {
+        if (e) e.stopPropagation();
+        setFavorites(prev => {
+            if (prev.includes(name)) {
+                return prev.filter(f => f !== name);
+            } else {
+                return [...prev, name];
+            }
+        });
+    };
 
     const { profile, skills, gems, arkpassive, arkgrid, siblings } = fullData || {}
     const cardList = Array.isArray(fullData?.cards?.Cards) ? fullData.cards.Cards : (Array.isArray(profile?.Cards) ? profile.Cards : [])
@@ -424,6 +650,45 @@ function App() {
                                 <span>원정대</span>
                             </div>
                         </div>
+
+                        {/* Recent Searches & Favorites */}
+                        {(recentSearches.length > 0 || favorites.length > 0) && (
+                            <div className="history-favorites-container" style={{ marginTop: '3rem', width: '100%', display: 'flex', gap: '2rem', textAlign: 'left', animation: 'fadeInUp 1s ease-out 0.8s backwards' }}>
+                                {favorites.length > 0 && (
+                                    <div className="fav-section" style={{ flex: 1, background: 'rgba(10, 14, 20, 0.6)', border: '1px solid rgba(255, 215, 0, 0.2)', padding: '1.5rem', borderRadius: '16px', boxShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
+                                        <div style={{ color: 'var(--primary-gold)', fontWeight: 700, marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                            <span style={{ fontSize: '1.2rem' }}>★</span> 나의 즐겨찾기
+                                        </div>
+                                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                                            {favorites.map((name, i) => (
+                                                <div key={i} className="history-pill" style={{ display: 'flex', alignItems: 'center', background: 'rgba(200, 161, 77, 0.1)', padding: '8px 14px', borderRadius: '20px', cursor: 'pointer', transition: 'all 0.2s', border: '1px solid rgba(200, 161, 77, 0.3)' }} onClick={() => handleSearch(null, name)}>
+                                                    <span style={{ fontSize: '0.95rem', color: '#fff', fontWeight: 600 }}>{name}</span>
+                                                    <button onClick={(e) => toggleFavorite(name, e)} style={{ background: 'none', border: 'none', color: '#ffb300', marginLeft: '8px', cursor: 'pointer', padding: 0, fontSize: '1.1rem', display: 'flex', alignItems: 'center' }}>★</button>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+                                {recentSearches.length > 0 && (
+                                    <div className="recent-section" style={{ flex: 1, background: 'rgba(10, 14, 20, 0.6)', border: '1px solid rgba(255, 255, 255, 0.1)', padding: '1.5rem', borderRadius: '16px', boxShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
+                                        <div style={{ color: '#aaa', fontWeight: 700, marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                            <span style={{ fontSize: '1.2rem' }}>🕒</span> 최근 검색 기록
+                                        </div>
+                                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                                            {recentSearches.map((name, i) => (
+                                                <div key={i} className="history-pill" style={{ display: 'flex', alignItems: 'center', background: 'rgba(255,255,255,0.05)', padding: '8px 14px', borderRadius: '20px', cursor: 'pointer', transition: 'all 0.2s', border: '1px solid rgba(255,255,255,0.1)' }} onClick={() => handleSearch(null, name)}>
+                                                    <span style={{ fontSize: '0.95rem', color: '#ccc' }}>{name}</span>
+                                                    <button onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        setRecentSearches(prev => prev.filter(n => n !== name));
+                                                    }} style={{ background: 'none', border: 'none', color: '#888', marginLeft: '8px', cursor: 'pointer', padding: 0, fontSize: '1rem', display: 'flex', alignItems: 'center' }}>✕</button>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
                     
                     <div className="hero-footer">
@@ -444,10 +709,22 @@ function App() {
             {fullData && (
                 <>
                     <div className="main-tabs">
+                        <button 
+                            className="home-btn" 
+                            title="메인 화면으로"
+                            onClick={handleGoHome}
+                        >
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                <polyline points="9 22 9 12 15 12 15 22" />
+                            </svg>
+                        </button>
                         <div className={`main-tab ${activeTab === 'profile' ? 'active' : ''}`} onClick={() => setActiveTab('profile')}>캐릭터 정보</div>
                         <div className={`main-tab ${activeTab === 'skills' ? 'active' : ''}`} onClick={() => setActiveTab('skills')}>스킬</div>
                         <div className={`main-tab ${activeTab === 'arkgrid' ? 'active' : ''}`} onClick={() => setActiveTab('arkgrid')}>아크 그리드</div>
                         <div className={`main-tab ${activeTab === 'siblings' ? 'active' : ''}`} onClick={() => setActiveTab('siblings')}>원정대 정보</div>
+                        <div className={`main-tab ${activeTab === 'gold' ? 'active' : ''}`} onClick={() => setActiveTab('gold')}>주간 레이드 골드</div>
+                        <div className={`main-tab ${activeTab === 'raidInfo' ? 'active' : ''}`} onClick={() => setActiveTab('raidInfo')}>레이드 정보</div>
                     </div>
 
                     <div className="re-search-wrapper">
@@ -478,7 +755,16 @@ function App() {
                                     <img src={profile.CharacterImage || "https://via.placeholder.com/400x600"} alt="" />
                                 </div>
                                 <div className="identity-bar">
-                                    <div className="identity-name">{profile.CharacterName}</div>
+                                    <div className="identity-name" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
+                                        {profile.CharacterName}
+                                        <button 
+                                            onClick={(e) => toggleFavorite(profile.CharacterName, e)}
+                                            style={{ background: 'none', border: 'none', fontSize: '2.2rem', cursor: 'pointer', color: favorites.includes(profile.CharacterName) ? '#ffb300' : '#555', transition: 'color 0.2s', display: 'flex', alignItems: 'center' }}
+                                            title="즐겨찾기"
+                                        >
+                                            {favorites.includes(profile.CharacterName) ? '★' : '☆'}
+                                        </button>
+                                    </div>
                                     <div className="identity-sub">Lv.{profile.CharacterLevel} {profile.CharacterClassName}</div>
                                 </div>
                                 <div className="info-list-card" style={{ marginTop: '0.5rem' }}>
@@ -534,7 +820,13 @@ function App() {
                                                     ?.sort((a, b) => (b.Level || 0) - (a.Level || 0))
                                                     ?.map((gem, i) => (
                                                         <div key={i} className="gem-icon-item">
-                                                            <img src={gem.Icon} alt="" />
+                                                            <div className="gem-images-wrapper">
+                                                                <img src={gem.Icon} alt="" className="main-gem-img" />
+                                                                {(() => {
+                                                                    const skillIcon = getGemSkillIcon(gem, skills);
+                                                                    return skillIcon ? <img src={skillIcon} alt="" className="gem-skill-mini-icon" /> : null;
+                                                                })()}
+                                                            </div>
                                                             <div className="gem-level-badge">Lv.{gem.Level || 1}</div>
                                                             <div className="gem-tooltip-h">
                                                                 <div className="tooltip-name">{stripHtml(gem.Name)}</div>
@@ -554,7 +846,13 @@ function App() {
                                                     ?.sort((a, b) => (b.Level || 0) - (a.Level || 0))
                                                     ?.map((gem, i) => (
                                                         <div key={i} className="gem-icon-item">
-                                                            <img src={gem.Icon} alt="" />
+                                                            <div className="gem-images-wrapper">
+                                                                <img src={gem.Icon} alt="" className="main-gem-img" />
+                                                                {(() => {
+                                                                    const skillIcon = getGemSkillIcon(gem, skills);
+                                                                    return skillIcon ? <img src={skillIcon} alt="" className="gem-skill-mini-icon" /> : null;
+                                                                })()}
+                                                            </div>
                                                             <div className="gem-level-badge">Lv.{gem.Level || 1}</div>
                                                             <div className="gem-tooltip-h">
                                                                 <div className="tooltip-name">{stripHtml(gem.Name)}</div>
@@ -799,6 +1097,220 @@ function App() {
                             </div>
                         </div>
                     )}
+
+                    {activeTab === 'gold' && (
+                        <div style={{ animation: 'slideUp 0.5s ease' }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '2rem' }}>
+                                <h2 style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary-gold)', margin: 0 }}>주간 레이드 골드 획득량</h2>
+                                {!calculatingGold && goldData.length > 0 && (
+                                    <div style={{ fontSize: '1.2rem', fontWeight: 700, color: '#fff', background: 'rgba(0,0,0,0.5)', padding: '0.5rem 1rem', borderRadius: '8px', border: '1px solid #ffd700', whiteSpace: 'nowrap' }}>
+                                        원정대 총 수익: <span style={{ color: '#ffd700' }}>{goldData.filter(d => goldEarners.includes(d.characterName)).reduce((sum, d) => sum + d.totalGold, 0).toLocaleString()} 골드</span>
+                                    </div>
+                                )}
+                            </div>
+
+                            {calculatingGold ? (
+                                <div className="stat-box-premium" style={{ padding: '3rem', textAlign: 'center' }}>
+                                    <div className="loading-spinner" style={{ margin: '0 auto 1rem auto' }}></div>
+                                    <div style={{ color: 'var(--primary-gold)', fontWeight: 700, letterSpacing: '2px' }}>CALCULATING EARNINGS...</div>
+                                </div>
+                            ) : goldData.length > 0 ? (
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '1.5rem' }}>
+                                    {goldData.map((data, i) => {
+                                        const isEarner = goldEarners.includes(data.characterName);
+                                        return (
+                                            <div key={i} className="stat-box-premium" style={{ textAlign: 'left', padding: '1.5rem', opacity: isEarner ? 1 : 0.6, position: 'relative', transition: 'opacity 0.2s ease' }}>
+                                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.8rem' }}>
+                                                    <div>
+                                                        <div style={{ fontSize: '1.4rem', fontWeight: 900, color: '#fff', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                                            {data.characterName}
+                                                            <button 
+                                                                onClick={() => toggleGoldEarner(data.characterName)}
+                                                                style={{ 
+                                                                    fontSize: '0.75rem', 
+                                                                    fontWeight: 700, 
+                                                                    border: isEarner ? '1px solid var(--primary-gold)' : '1px solid #555', 
+                                                                    background: isEarner ? 'var(--primary-gold)' : 'transparent',
+                                                                    color: isEarner ? '#000' : '#888',
+                                                                    padding: '2px 8px', 
+                                                                    borderRadius: '4px', 
+                                                                    letterSpacing: '0',
+                                                                    cursor: 'pointer',
+                                                                    transition: 'all 0.2s ease'
+                                                                }}
+                                                            >
+                                                                {isEarner ? '수익 포함' : '수익 제외'}
+                                                            </button>
+                                                        </div>
+                                                        <div style={{ color: '#aaa', fontSize: '0.9rem', marginTop: '4px' }}>Lv.{data.level} | {data.className}</div>
+                                                    </div>
+                                                    <div style={{ fontSize: '1.2rem', fontWeight: 800, color: isEarner ? 'var(--primary-gold)' : '#888' }}>
+                                                        {data.totalGold.toLocaleString()} 골드
+                                                    </div>
+                                                </div>
+                                            
+                                            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                                                {data.top3Raids.map((raid, j) => (
+                                                    <div key={j} style={{ display: 'flex', justifyContent: 'space-between', background: 'rgba(255,255,255,0.03)', padding: '0.8rem 1rem', borderRadius: '6px' }}>
+                                                        <span style={{ color: '#ddd' }}>{raid.name} <span style={{ fontSize: '0.8rem', color: raid.difficulty === '하드' ? '#ff6060' : '#49c2ff', marginLeft: '4px' }}>[{raid.difficulty}]</span></span>
+                                                        <span style={{ color: '#ffd700', fontWeight: 600 }}>{raid.gold.toLocaleString()}G</span>
+                                                    </div>
+                                                ))}
+                                                {data.top3Raids.length === 0 && (
+                                                    <div style={{ color: '#777', textAlign: 'center', padding: '1rem 0' }}>입장 가능한 레이드가 없습니다.</div>
+                                                )}
+                                            </div>
+                                        </div>
+                                        );
+                                    })}
+                                </div>
+                            ) : (
+                                <div className="stat-box-premium" style={{ padding: '3rem', textAlign: 'center' }}>
+                                    <div style={{ color: '#aaa', fontSize: '1rem' }}>데이터를 불러올 수 없거나 캐릭터 정보가 없습니다.</div>
+                                </div>
+                            )}
+                        </div>
+                    )}
+
+                    {activeTab === 'raidInfo' && (() => {
+                        const currentRaid = raidInfoData.find(r => r.name === selectedRaidName);
+                        const currentDifficultyData = currentRaid && currentRaid.difficulties ? currentRaid.difficulties[selectedDifficulty] : null;
+
+                        return (
+                            <div style={{ animation: 'slideUp 0.5s ease' }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '2rem' }}>
+                                    <h2 style={{ fontSize: '2.5rem', fontWeight: 900, color: '#49c2ff', margin: 0 }}>상세 레이드 정보</h2>
+                                    <div style={{ fontSize: '1rem', color: '#aaa' }}>보스 및 난이도 선택 방식</div>
+                                </div>
+
+                                {loadingRaidInfo ? (
+                                    <div className="stat-box-premium" style={{ padding: '3rem', textAlign: 'center' }}>
+                                        <div className="loading-spinner" style={{ margin: '0 auto 1rem auto' }}></div>
+                                        <div style={{ color: '#49c2ff', fontWeight: 700, letterSpacing: '2px' }}>LOADING RAID DATA...</div>
+                                    </div>
+                                ) : raidInfoData.length > 0 ? (
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                                        <div className="stat-box-premium" style={{ padding: '1.5rem' }}>
+                                            <div style={{ color: '#aaa', fontSize: '0.9rem', marginBottom: '0.8rem' }}>참여할 레이드 보스</div>
+                                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', marginBottom: '1.5rem' }}>
+                                                {raidInfoData.map(r => (
+                                                    <button 
+                                                        key={r.name}
+                                                        onClick={() => {
+                                                            setSelectedRaidName(r.name);
+                                                            const diffs = Object.keys(r.difficulties);
+                                                            setSelectedDifficulty(diffs[0] || '');
+                                                        }}
+                                                        style={{
+                                                            padding: '0.6rem 1.2rem', 
+                                                            borderRadius: '8px', 
+                                                            background: selectedRaidName === r.name ? 'var(--primary-gold)' : 'rgba(255,255,255,0.05)',
+                                                            color: selectedRaidName === r.name ? '#000' : '#ccc',
+                                                            fontWeight: selectedRaidName === r.name ? 900 : 500,
+                                                            border: selectedRaidName === r.name ? '1px solid var(--primary-gold)' : '1px solid rgba(255,255,255,0.1)',
+                                                            cursor: 'pointer',
+                                                            transition: 'all 0.2s ease',
+                                                            fontSize: '1rem'
+                                                        }}
+                                                    >
+                                                        {r.name}
+                                                    </button>
+                                                ))}
+                                            </div>
+
+                                            {currentRaid && currentRaid.difficulties && (
+                                                <>
+                                                    <div style={{ color: '#aaa', fontSize: '0.9rem', marginBottom: '0.8rem' }}>난이도</div>
+                                                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem' }}>
+                                                        {Object.keys(currentRaid.difficulties).map(d => (
+                                                            <button 
+                                                                key={d}
+                                                                onClick={() => setSelectedDifficulty(d)}
+                                                                style={{
+                                                                    padding: '0.5rem 1rem', 
+                                                                    borderRadius: '8px', 
+                                                                    background: selectedDifficulty === d 
+                                                                        ? (d === '하드' ? 'rgba(255, 96, 96, 0.2)' : 'rgba(73, 194, 255, 0.2)') 
+                                                                        : 'transparent',
+                                                                    color: selectedDifficulty === d 
+                                                                        ? (d === '하드' ? '#ff6060' : '#49c2ff') 
+                                                                        : '#888',
+                                                                    fontWeight: selectedDifficulty === d ? 800 : 500,
+                                                                    border: selectedDifficulty === d 
+                                                                        ? (d === '하드' ? '1px solid #ff6060' : '1px solid #49c2ff') 
+                                                                        : '1px solid rgba(255,255,255,0.1)',
+                                                                    cursor: 'pointer',
+                                                                    transition: 'all 0.2s ease',
+                                                                    fontSize: '0.95rem'
+                                                                }}
+                                                            >
+                                                                {d}
+                                                            </button>
+                                                        ))}
+                                                    </div>
+                                                </>
+                                            )}
+                                        </div>
+
+                                        {currentDifficultyData && (
+                                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1.5rem' }}>
+                                                {currentDifficultyData.steps.sort((a,b) => a.step - b.step).map((step, k) => (
+                                                    <div key={k} className="stat-box-premium" style={{ padding: '1.5rem' }}>
+                                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.8rem' }}>
+                                                            <div style={{ fontSize: '1.4rem', fontWeight: 900, color: '#fff' }}>{step.step}관문</div>
+                                                            <div style={{ fontSize: '1rem', color: '#aaa' }}>입장 레벨: <span style={{ color: 'var(--primary-gold)' }}>Lv.{step.level}</span></div>
+                                                        </div>
+
+                                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                                                            <div style={{ display: 'flex', justifyContent: 'space-between', background: 'rgba(255,255,255,0.03)', padding: '0.8rem', borderRadius: '6px' }}>
+                                                                <span style={{ color: '#ccc' }}>클리어 골드</span>
+                                                                <span style={{ color: 'var(--primary-gold)', fontWeight: 700 }}>{step.gold.toLocaleString()}G</span>
+                                                            </div>
+                                                            
+                                                            <div style={{ display: 'flex', justifyContent: 'space-between', background: 'rgba(255,255,255,0.03)', padding: '0.8rem', borderRadius: '6px' }}>
+                                                                <span style={{ color: '#ccc' }}>더보기 비용</span>
+                                                                <span style={{ color: '#ff6b6b', fontWeight: 700 }}>-{step.rewardMoreGoldCost.toLocaleString()}G</span>
+                                                            </div>
+
+                                                            {step.rewardItems?.default?.length > 0 && (
+                                                                <div style={{ marginTop: '0.5rem' }}>
+                                                                    <div style={{ color: '#aaa', fontSize: '0.9rem', marginBottom: '0.5rem' }}>기본 보상 재료</div>
+                                                                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                                                                        {step.rewardItems.default.map((rtm, ri) => (
+                                                                            <span key={ri} style={{ background: 'rgba(73, 194, 255, 0.1)', color: '#49c2ff', padding: '4px 8px', borderRadius: '4px', fontSize: '0.85rem' }}>
+                                                                                {rtm.reward} x{rtm.count}
+                                                                            </span>
+                                                                        ))}
+                                                                    </div>
+                                                                </div>
+                                                            )}
+
+                                                            {step.rewardItems?.more?.length > 0 && (
+                                                                <div style={{ marginTop: '0.5rem' }}>
+                                                                    <div style={{ color: '#aaa', fontSize: '0.9rem', marginBottom: '0.5rem' }}>더보기 보상 재료</div>
+                                                                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                                                                        {step.rewardItems.more.map((rtm, ri) => (
+                                                                            <span key={ri} style={{ background: 'rgba(255, 215, 0, 0.1)', color: 'var(--primary-gold)', padding: '4px 8px', borderRadius: '4px', fontSize: '0.85rem' }}>
+                                                                                {rtm.reward} x{rtm.count}
+                                                                            </span>
+                                                                        ))}
+                                                                    </div>
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        )}
+                                    </div>
+                                ) : (
+                                    <div className="stat-box-premium" style={{ padding: '3rem', textAlign: 'center' }}>
+                                        <div style={{ color: '#aaa', fontSize: '1rem' }}>레이드 정보를 불러올 수 없습니다.</div>
+                                    </div>
+                                )}
+                            </div>
+                        );
+                    })()}
                 </>
             )}
         </div>
